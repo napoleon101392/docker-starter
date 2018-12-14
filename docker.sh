@@ -1,5 +1,5 @@
 #!/bin/sh
-docker start $(docker ps -a)
+docker start $(docker ps -aq)
 
 clear
 
